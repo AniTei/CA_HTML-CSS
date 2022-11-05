@@ -1,0 +1,31 @@
+/* felles for alle pages*/
+
+header {
+    background-color: #283e3c;
+    color: #cdcdcd;
+
+}
+header a {
+    text-decoration: none;
+    color: #cdcdcd;
+}
+main {
+    background-color: #cdcdcd;
+}
+
+footer {
+    background-color: #283e3c;
+    color: #cdcdcd;
+}
+.product-img {
+    background-color: #ffffff
+    
+}
+.cta {
+    background-color: #283e3c;
+    color: #cdcdcd;
+    text-decoration: none;
+}
+.cta-back {
+    background-color: lightgreen;
+}
