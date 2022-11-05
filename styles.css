@@ -1,5 +1,9 @@
 /* felles for alle pages*/
 
+body {
+    font-family: 'ubuntu', sans-serif;
+}
+
 header {
     background-color: #283e3c;
     color: #cdcdcd;
