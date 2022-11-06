@@ -21,21 +21,57 @@
                     <li><a href="about.html"> about us </a></li>                 
                     <li><a href="contact.html">contact</a></li>
                 </ul>
-                
             </nav>
-
         </header>
         <main>
             <h1>Checkout</h1>
-                <h2>Your Cart</h2>
-                    <div class="product-img">
-                        <img src="images/RainyDays_Jacket1.png" alt="Jacket #1">
-                    </div>
-                    
-                <h2>Information</h2>    
+                <form action="success.html" method="POST"> <!--I am aware it should send the information to a .php, but just for the sake of the website looking like it should, I linked it to the success.html-->
+                    <fieldset id="cart">
+                        <legend>Your Cart</legend>
 
-            <a href="products.html" class="cta-back">back</a>
-            <a href="success.html" class="cta">pay</a>
+                    </fieldset>
+                    <fieldset id="information">
+                        <legend>Your Information</legend>
+                        <label for="fornavn">First Name</label>
+                        <input type="text" name="firstname" value="Navn" id="fornavn"/>
+
+                        <label for="etternavn">Last Name</label>
+                        <input type="text" name="lastname" value="Navnesen" id="etternavn"/>
+
+                        <label for="epost">e-mail</label>
+                        <input type="email" name="e-mail" value="navn.navnesen@post.no" id="epost"/>
+
+                        <!---should I choose some other value than text for the type attribute here?-->
+                        <label for="gatenavn">Street Adress</label>
+                        <input type="text" name="streetadress" value="Storgata 1" id="gatenavn"/>
+
+                        <label for="postadresse">Postal Code</label>
+                        <input type="text" name="postalcode" value="1234" id="postadresse"/>
+
+                        <label for="by">City</label>
+                        <input type="text" name="City" value="Hovedstaden" id="by"/>
+                    </fieldset>
+                    <fieldset id="payment">
+                        <legend>Payment</legend>
+                        <label for="kort">Card Number</label>
+                        <input type="text" name="cardnumber" value="**** **** **** ****" id="kort"/>
+
+                        <label for="utlop">Expiration Date</label>
+                        <input type="text" name="expiration" value="MM/YY" id="utlop"/>
+
+                        <label for="sikkerhet">CVC</label>
+                        <input type="text" name="CVC" value="***" id="sikkerhet"/>
+                    </fieldset>
+                    
+                    <input type="submit" value="pay" class="cta"/>
+                    <a href="products.html" class="cta-back">back</a>
+                
+                </form>
+                    
+
+                
+
+            
         </main>
         <footer>
             copyright
