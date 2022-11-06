@@ -20,8 +20,20 @@ header a {
     text-transform: uppercase;
 
 }
+
+nav,
+#hamburger {
+    display: none;
+}
+#hamburger:checked ~ nav {
+    display: block;
+}
+
+/*underlining for the current page is only for the desktop version*/
 .current{
     text-decoration: underline;
+    text-decoration: none;
+
 }
 main {
     background-color: #cdcdcd;
