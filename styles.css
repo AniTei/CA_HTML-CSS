@@ -13,24 +13,36 @@ header {
     color: #cdcdcd;
     background-color: #283e3c;
     position: relative;
+
    
+}
+header .menu{
+    padding: 20px 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
 }
 header a {
     text-decoration: none;
     color: #cdcdcd;
+}
+nav a {    
     text-transform: uppercase;
     display: block;
     padding: 20px;
     text-align: center;
 
 }
-/* I want the opened manu to cover all teh way down to the bottom of the viewport, how*/
+/* I want the opened menu to cover all the way down to the bottom of the viewport, how*/
 nav {
-    position: absolute;
     background: #283e3c;
     width: 100%;
+    padding: 20px 0px;
+
 
 }
+
+
 
 nav,
 #hamburger {
@@ -39,9 +51,14 @@ nav,
 #hamburger:checked ~ nav {
     display: block;
 }
+
+nav .menu {
+    text-align: center;
+}
 /*I want to add an option to close the menu again, in place of the text saying menu, back arrow or X, use a transition maybe?*/
 #hamburger:checked ~ .menu {
     text-decoration: underline;
+    text-align: center;
 }
 
 /*underlining for the current page is only for the desktop version*/
