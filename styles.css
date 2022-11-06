@@ -67,6 +67,7 @@ footer {
 }
 .product-img {
     background-color: #ffffff;
+    max-width: 90%;
     padding: 5%;
 }
 .prod-name {
@@ -97,7 +98,7 @@ footer {
     color: #283e3c;
 }
 img{
-    max-width: 90%;
+    max-width: 100%;
 
 }
 
