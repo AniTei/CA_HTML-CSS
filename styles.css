@@ -1,13 +1,18 @@
 /* felles for alle pages*/
+.banner {
+    background-image: url("images/staffan-kjellvestad-y1qOT82fd8k-unsplash.jpg");
+    width: 100%;
+    min-height: 3000px;
+}
 
 body {
     font-family: 'ubuntu', sans-serif;
 }
 
 header {
-    background-color: #283e3c;
     color: #cdcdcd;
-
+    background-color: #283e3c;
+   
 }
 header a {
     text-decoration: none;
@@ -32,4 +37,10 @@ footer {
 }
 .cta-back {
     background-color: lightgreen;
+
 }
+img{
+    width: 71%;
+}
+
+/*background-color: #283e3c;*/
