@@ -1,8 +1,8 @@
 /* felles for alle pages*/
 .banner {
-    background-image: url("images/staffan-kjellvestad-y1qOT82fd8k-unsplash.jpg");
     width: 100%;
-    min-height: 3000px;
+    background-position-x: right;
+    background-position-y: top;
 }
 
 body {
