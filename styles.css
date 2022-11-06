@@ -17,6 +17,11 @@ header {
 header a {
     text-decoration: none;
     color: #cdcdcd;
+    text-transform: uppercase;
+
+}
+.current{
+    text-decoration: underline;
 }
 main {
     background-color: #cdcdcd;
