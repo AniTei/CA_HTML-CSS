@@ -1,6 +1,6 @@
 /* felles for alle pages*/
 .banner {
-    width: 100%;
+    max-width: 100%;
     background-position-x: right;
     background-position-y: top;
 }
@@ -78,7 +78,10 @@ footer {
     color: #cdcdcd;
 }
 .product-img {
-    background-color: #ffffff
+
+    background-color: #ffffff;
+    padding: 2em;
+    
     
 }
 .cta,
@@ -91,6 +94,7 @@ footer {
     font-size: 1em;
     max-width: fit-content;
     margin: 00.5em;
+    display: inline-block;
 
 }
 .cta-back {
@@ -102,7 +106,10 @@ footer {
 
 }
 img{
-    width: 71%;
+    max-width: 71%;
 }
 
+.product-in-list {
+    text-align: center;
+}
 /*background-color: #283e3c;*/
