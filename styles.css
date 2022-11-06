@@ -4,18 +4,14 @@
     background-position-x: right;
     background-position-y: top;
 }
-
 body {
     font-family: 'ubuntu', sans-serif;
     background-color: #cdcdcd;
 }
-
 header {
     color: #cdcdcd;
     background-color: #283e3c;
     position: relative;
-
-   
 }
 header .menu{
     padding: 0.5em 0em;
@@ -33,14 +29,11 @@ nav a {
     display: block;
     padding: 20px;
     text-align: center;
-
 }
-/* I want the opened menu to cover all the way down to the bottom of the viewport, how*/
 nav {
     background: #283e3c;
     width: 100%;
     padding: 20px 0px;
-
 }
 nav,
 #hamburger {
@@ -49,43 +42,27 @@ nav,
 #hamburger:checked ~ nav {
     display: block;
 }
-
-
-
-/*I want to add an option to close the menu again, in place of the text saying menu, back arrow or X, use a transition maybe?*/
 #hamburger:checked ~ .menu {
     text-decoration: underline;
-    text-align: center;
-}
-
-/*underlining for the current page is only for the desktop version*/
-.current{
-    text-decoration: underline;
-    text-decoration: none;
-
 }
 main {
     background-color: #cdcdcd;
     display: grid;
     max-width: 71%;
     margin: auto;
-
 }
 h1 {
     text-align: center;
     font-weight: bold;
     padding: 4vh;
 }
-
 footer {
     background-color: #283e3c;
     color: #cdcdcd;
 }
 .product-img {
     background-color: #ffffff;
-    padding: 2em;
-    
-
+    padding: 5%;
 }
 .cta,
 .cta-back{
@@ -105,10 +82,20 @@ footer {
     color: #283e3c;
 }
 img{
-    max-width: 100%;
+    max-width: 90%;
+
 }
 
 .product-in-list {
     text-align: center;
+}
+
+/*underlining for the current page is only for the desktop version + extra text in product list*/
+.current{
+    text-decoration: underline;
+    text-decoration: none;
+}
+.p2 {
+    display: none;
 }
 /*background-color: #283e3c;*/
