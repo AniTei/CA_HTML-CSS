@@ -1,12 +1,26 @@
 /* felles for alle pages*/
-.banner {
-    max-width: 100%;
-    background-position-x: right;
-    background-position-y: top;
-}
+
 body {
     font-family: 'ubuntu', sans-serif;
     background-color: #cdcdcd;
+}
+.logo-parent {
+    position: relative;
+}
+.banner {
+    max-width: 100%;
+    position: relative;
+    background-position-x: right;
+    background-position-y: top;
+}
+.logo {
+    max-width: 42%;
+    position: absolute;
+    left: 50%;
+    margin-left: -21%;
+    top: 50%;
+    margin-top: -11%;
+   
 }
 header {
     color: #cdcdcd;
@@ -137,4 +151,4 @@ img{
 .p2 {
     display: none;
 }
-/*background-color: #283e3c;*/
+
