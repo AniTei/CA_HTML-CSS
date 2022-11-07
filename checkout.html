@@ -31,39 +31,56 @@
                 <form action="success.html" method="POST"> <!--I am aware it should send the information to a .php, but just for the sake of the website looking like it should, I linked it to the success.html-->
                     <fieldset id="cart">
                         <legend>Your Cart</legend>
+                        <img src="images/RainyDays_Jacket1.png" class="prod-in-cart">
+                        <p class="cart-text">1 Jacket #1</p>
+                        <p class="cart-text">Colour: grey</p>
+                        <p class="cart-text">Size: M</p>
+                        <p class="cart-text cart-price">Total: 120 €</p>
 
                     </fieldset>
                     <fieldset id="information">
                         <legend>Your Information</legend>
-                        <label for="fornavn">First Name</label>
-                        <input type="text" name="firstname" value="Navn" id="fornavn"/>
-
-                        <label for="etternavn">Last Name</label>
-                        <input type="text" name="lastname" value="Navnesen" id="etternavn"/>
-
-                        <label for="epost">e-mail</label>
-                        <input type="email" name="e-mail" value="navn.navnesen@post.no" id="epost"/>
-
+                        <div>
+                            <label for="fornavn">First Name</label>
+                            <input type="text" name="firstname" value="Navn" id="fornavn"/>
+                        </div>
+                        <div>
+                            <label for="etternavn">Last Name</label>
+                            <input type="text" name="lastname" value="Navnesen" id="etternavn"/>
+                        </div>
+                        <div>
+                            <label for="epost">e-mail</label>
+                            <input type="email" name="e-mail" value="navn.navnesen@post.no" id="epost"/>
+                        </div>
+                        
                         <!---should I choose some other value than text for the type attribute here?-->
-                        <label for="gatenavn">Street Adress</label>
-                        <input type="text" name="streetadress" value="Storgata 1" id="gatenavn"/>
-
-                        <label for="postadresse">Postal Code</label>
-                        <input type="text" name="postalcode" value="1234" id="postadresse"/>
-
-                        <label for="by">City</label>
-                        <input type="text" name="City" value="Hovedstaden" id="by"/>
+                        <div>
+                            <label for="gatenavn">Street Adress</label>
+                            <input type="text" name="streetadress" value="Storgata 1" id="gatenavn"/>
+                        </div>
+                        <div>
+                            <label for="postadresse">Postal Code</label>
+                            <input type="text" name="postalcode" value="1234" id="postadresse"/>
+                        </div>
+                        <div>
+                            <label for="by">City</label>
+                            <input type="text" name="City" value="Hovedstaden" id="by"/>
+                        </div>
                     </fieldset>
                     <fieldset id="payment">
                         <legend>Payment</legend>
-                        <label for="kort">Card Number</label>
-                        <input type="text" name="cardnumber" value="**** **** **** ****" id="kort"/>
-
-                        <label for="utlop">Expiration Date</label>
-                        <input type="text" name="expiration" value="MM/YY" id="utlop"/>
-
-                        <label for="sikkerhet">CVC</label>
-                        <input type="text" name="CVC" value="***" id="sikkerhet"/>
+                        <div>
+                            <label for="kort">Card Number</label>
+                            <input type="text" name="cardnumber" value="**** **** **** ****" id="kort"/>
+                        </div>
+                        <div>
+                            <label for="utlop">Expiration Date</label>
+                            <input type="text" name="expiration" value="MM/YY" id="utlop"/>
+                        </div>
+                        <div>
+                            <label for="sikkerhet">CVC</label>
+                            <input type="text" name="CVC" value="***" id="sikkerhet"/>
+                        </div>
                     </fieldset>
                     <div class="product-in-list">
                         <input type="submit" value="pay" class="cta"/>

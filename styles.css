@@ -165,3 +165,34 @@ img{
 .success p {
     text-align: center;
 }
+legend{
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #ffffff;
+}
+fieldset {
+    margin-bottom: 3%;
+    background-color: #ffffff;
+}
+fieldset input {
+    margin-bottom: 3%;
+    background-color: #ffffff;
+}
+fieldset label {
+    font-size: 1em;
+    
+}
+fieldset div {
+    display: flex;
+    flex-direction: column;
+}
+.prod-in-cart {
+    width: 45%;
+}
+.cart-price{
+font-weight: bold;
+}
+.cart-text {
+    float: right;
+    clear: right;
+}
