@@ -50,6 +50,7 @@ main {
     display: grid;
     max-width: 71%;
     margin: auto;
+    padding-bottom: 5vh;
 }
 h1 {
     text-align: center;
@@ -65,12 +66,15 @@ footer {
     color: #cdcdcd;
     padding: 0.4em;
 }
-footer section {
+.contact-setup div,
+.contact-setup p {
     display: flex;
+    padding: 0.2em;
 }
-footer p {
-    padding: 0.2em
+.contained {
+    max-width: 230px;
 }
+
 footer .copy {
     padding: 1.5em;
     text-align: center;
@@ -89,6 +93,10 @@ p {
 }
 .prod-price {
     float: right;
+}
+
+.spec-price{
+    text-align: right;
 }
 
 /*btns*/
