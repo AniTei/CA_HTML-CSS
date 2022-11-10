@@ -144,6 +144,12 @@ img{
 }
 .product-in-list {
     text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.someair {
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 /*underlining for the current page is only for the desktop version + extra text in product list*/
