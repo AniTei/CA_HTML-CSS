@@ -114,8 +114,7 @@ p {
 }
 
 /*btns*/
-.cta,
-.cta-back{
+.cta {
     background-color: #283e3c;
     color: #cdcdcd;
     text-decoration: none;
@@ -125,11 +124,10 @@ p {
     max-width: fit-content;
     margin: 00.5em;
     display: inline-block;
-
 }
 .cta-back {
     background-color: #769c99;
-    color: #283e3c;
+    color: #000;
 }
 img{
     max-width: 100%;
@@ -151,20 +149,24 @@ img{
 .p2 {
     display: none;
 }
-
+/*Success*/
 .success {
     background-color: #ffffff;
+    margin: auto;
     margin-top: 10vh;
     margin-bottom: 5vh;
     max-width: fit-content;
-    padding: 0 7% 7% 7%;
-    font-size: 0.8em;
-
-    
+    padding: 4% 4% 4% 4%;
 }
 .success p {
-    text-align: center;
+    text-align: center;    
+    font-size: 0.8em;
+
 }
+.tobecontinued {
+    margin: auto;
+}
+/*forms*/
 legend{
     font-weight: bold;
     font-size: 1.2em;
