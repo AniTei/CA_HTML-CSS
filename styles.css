@@ -83,10 +83,15 @@ footer {
 .contact-setup div,
 .contact-setup p {
     display: flex;
-    padding: 0.2em;
+    padding: 0.1em;
 }
 .contained {
     max-width: 230px;
+}
+.footer-marg {
+    max-width: 71%;
+    margin: auto;
+    padding: 2em;
 }
 
 footer .copy {
