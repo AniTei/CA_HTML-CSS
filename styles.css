@@ -136,7 +136,6 @@ p {
 }
 img{
     max-width: 100%;
-
 }
 .middle{
     margin: auto;
@@ -230,3 +229,32 @@ font-weight: bold;
         padding: 0px;
     }
 }
+/*about*/
+@media (min-width: 1000px) {
+    .abt-grid {
+        display: grid;
+        column-gap: 20%;
+        row-gap: 0;
+        margin-top: 3em;
+        grid-template-columns: 40% 40%;
+        grid-template-areas: 
+        'bilde overskrift'
+        'bilde fortell';
+    }
+    .abt-img {
+        grid-row: span 2;
+        grid-area: bilde;
+    }
+    .abt-story {
+        padding-bottom: 2em;
+        grid-area: fortell;
+    }
+    .abt.head { 
+        grid-area: overskrift; 
+    }
+    .abt-grid2 {
+        grid-template-areas: 
+        'overskrift bilde'
+        'fortell bilde';    
+    }
+    }
