@@ -213,5 +213,15 @@ font-weight: bold;
 @media (min-width: 800px) {
     nav {
         display: block;
+        max-width: 71%;
+        margin: auto;
+    }
+    header .menu {
+        display: none;
+    }
+    nav a {
+        display: inline-block;
+        width: 24%;
+        padding: 0px;
     }
 }
