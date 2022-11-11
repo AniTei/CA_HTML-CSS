@@ -69,7 +69,7 @@ main {
 h1 {
     text-align: center;
     font-weight: bold;
-    padding: 4vh;
+    padding-top: 4vh;
 }
 h2{
     font-size: 1.1em;
@@ -138,9 +138,14 @@ img{
     max-width: 100%;
 
 }
-.indexcontainer{
-    display: grid;
-    grid-template-rows: auto;
+.middle{
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.jacketcontainer{
+    display: flex;
+    background: #ffffff;
 }
 
 .product-in-list {
