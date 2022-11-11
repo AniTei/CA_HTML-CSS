@@ -142,6 +142,7 @@ img{
     display: grid;
     grid-template-rows: auto;
 }
+
 .product-in-list {
     text-align: center;
     margin-top: 1em;
@@ -155,7 +156,6 @@ img{
 /*underlining for the current page is only for the desktop version + extra text in product list*/
 .current{
     text-decoration: underline;
-    text-decoration: none;
 }
 .p2 {
     display: none;
@@ -208,4 +208,10 @@ font-weight: bold;
 .cart-text {
     float: right;
     clear: right;
+}
+
+@media (min-width: 800px) {
+    nav {
+        display: block;
+    }
 }
