@@ -285,7 +285,33 @@ font-weight: bold;
     .spec-btns {
         grid-area: knapper;
     }
+     .list-grid{
+        display: grid;
+        column-gap: 20%;
+        row-gap: 0;
+        grid-template-columns: 40% 40%;
+        grid-template-areas: 
+        'bilde overskrift'
+        'bilde fortell'
+        'bilde knapper';
+    }
+    .list-head {
+        grid-area: overskrift;
+    }
+    .list-img {
+        grid-area: bilde;
+        margin: auto;
+    }
+    .list-info {
+        grid-area: fortell;
+    }
+    .list-btns {
+        grid-area: knapper;
+    }
+    .p2{
+        display: inline-block;
+    }
     }
 
-    
+   
     
