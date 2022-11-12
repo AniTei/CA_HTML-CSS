@@ -257,4 +257,35 @@ font-weight: bold;
         'overskrift bilde'
         'fortell bilde';    
     }
+    .spec-grid{
+        display: grid;
+        column-gap: 20%;
+        row-gap: 0;
+        grid-template-columns: 40% 40%;
+        grid-template-areas: 
+        'bilde info1'
+        'bilde info2'
+        'pris knapper'
+        ;
     }
+    .spec-img {
+        grid-area: bilde;
+        margin: auto;
+    }
+    .spec-info1 {
+        grid-area: info1;
+    }
+    .spec-info2 {
+        grid-area: info2;
+    }
+    .spec-price {
+        grid-area: pris;
+        text-align: left;
+    }
+    .spec-btns {
+        grid-area: knapper;
+    }
+    }
+
+    
+    
