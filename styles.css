@@ -204,7 +204,7 @@ fieldset div {
     flex-direction: column;
 }
 .prod-in-cart {
-    width: 45%;
+    max-height: 36vh;
 }
 .cart-price{
 font-weight: bold;
@@ -212,6 +212,10 @@ font-weight: bold;
 .cart-text {
     float: right;
     clear: right;
+    margin: 0.6em;
+}
+#cart {
+    max-height: 40vh;
 }
 
 @media (min-width: 800px) {
@@ -343,6 +347,29 @@ font-weight: bold;
         ' knapp bilde';
     }
 
+    .check-grid{
+        display: grid;
+        column-gap: 20%;
+        row-gap: 0;
+        grid-template-columns: 40% 40%;
+        grid-template-areas: 
+        'kurv kurv'
+        'info kort'
+        'info knapper'
+    }
+    #cart {
+        grid-area: kurv;
+    }
+    #information {
+        grid-area: info;
+    }
+    #payment {
+        grid-area: kort;
+        max-height: fit-content;
+    }
+    .check-btns {
+        grid-area: knapper;
+    }
     }
    
 
