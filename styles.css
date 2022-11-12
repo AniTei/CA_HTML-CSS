@@ -311,7 +311,41 @@ font-weight: bold;
     .p2{
         display: inline-block;
     }
+    .index-grid {
+        display: grid;
+        column-gap: 20%;
+        row-gap: 0;
+        grid-template-columns: 40% 40%;
+        grid-template-areas:
+        'bilde overskrift'
+        'bilde fortell'
+        'bilde knapp';
     }
+    .index-head {
+        grid-area: overskrift;
+    }
+    .index-img {
+        grid-area: bilde;
+        margin: auto;
+    }
+    index-info {
+        grid-area: fortell;
+    }
+
+    .index-grid2 {
+        display: grid;
+        column-gap: 20%;
+        row-gap: 0;
+        grid-template-columns: 40% 40%;
+        grid-template-areas:
+        ' overskrift bilde'
+        ' fortell bilde'
+        ' knapp bilde';
+    }
+
+    }
+   
+
 
    
     
