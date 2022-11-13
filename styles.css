@@ -1,5 +1,3 @@
-/* felles for alle pages*/
-
 body {
     font-family: 'ubuntu', sans-serif;
     background-color: #cdcdcd;
@@ -20,7 +18,6 @@ body {
     margin-left: -21%;
     top: 50%;
     margin-top: -11%;
-   
 }
 header {
     color: #cdcdcd;
@@ -93,7 +90,6 @@ footer {
     margin: auto;
     padding: 2em;
 }
-
 footer .copy {
     padding: 1.5em;
     text-align: center;
@@ -101,7 +97,6 @@ footer .copy {
 p {
     text-align: left;
 }
-/*products*/
 .product-img {
     background-color: #ffffff;
     max-width: 90%;
@@ -113,12 +108,9 @@ p {
 .prod-price {
     float: right;
 }
-
 .spec-price{
     text-align: right;
 }
-
-/*btns*/
 .cta {
     background-color: #283e3c;
     color: #cdcdcd;
@@ -146,18 +138,11 @@ img{
     display: flex;
     background: #ffffff;
 }
-
 .product-in-list {
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
 }
-.someair {
-    margin-top: 1em;
-    margin-bottom: 2em;
-}
-
-/*underlining for the current page is only for the desktop version + extra text in product list*/
 .current{
     text-decoration: underline;
 }
@@ -242,15 +227,12 @@ font-weight: bold;
         margin-top: 3em;
         grid-template-columns: 40% 40%;
     }
-    
-    
     .abt-grid {
         grid-template-areas: 
         'bilde overskrift'
         'bilde fortell';
     }
     .abt-img {
-        grid-row: span 2;
         grid-area: bilde;
     }
     .abt-story {
