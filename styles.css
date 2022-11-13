@@ -235,12 +235,16 @@ font-weight: bold;
 }
 /*about*/
 @media (min-width: 1000px) {
-    .abt-grid {
+    .layout1000 {
         display: grid;
         column-gap: 20%;
         row-gap: 0;
         margin-top: 3em;
         grid-template-columns: 40% 40%;
+    }
+    
+    
+    .abt-grid {
         grid-template-areas: 
         'bilde overskrift'
         'bilde fortell';
@@ -257,20 +261,16 @@ font-weight: bold;
         grid-area: overskrift; 
     }
     .abt-grid2 {
+        padding-bottom: 2em;
         grid-template-areas: 
         'overskrift bilde'
         'fortell bilde';    
     }
     .spec-grid{
-        display: grid;
-        column-gap: 20%;
-        row-gap: 0;
-        grid-template-columns: 40% 40%;
         grid-template-areas: 
         'bilde info1'
         'bilde info2'
-        'pris knapper'
-        ;
+        'pris knapper';
     }
     .spec-img {
         grid-area: bilde;
@@ -290,10 +290,6 @@ font-weight: bold;
         grid-area: knapper;
     }
      .list-grid{
-        display: grid;
-        column-gap: 20%;
-        row-gap: 0;
-        grid-template-columns: 40% 40%;
         grid-template-areas: 
         'bilde overskrift'
         'bilde fortell'
@@ -316,10 +312,6 @@ font-weight: bold;
         display: inline-block;
     }
     .index-grid {
-        display: grid;
-        column-gap: 20%;
-        row-gap: 0;
-        grid-template-columns: 40% 40%;
         grid-template-areas:
         'bilde overskrift'
         'bilde fortell'
@@ -332,26 +324,17 @@ font-weight: bold;
         grid-area: bilde;
         margin: auto;
     }
-    index-info {
+    .index-info {
         grid-area: fortell;
     }
 
     .index-grid2 {
-        display: grid;
-        column-gap: 20%;
-        row-gap: 0;
-        grid-template-columns: 40% 40%;
         grid-template-areas:
         ' overskrift bilde'
         ' fortell bilde'
         ' knapp bilde';
     }
-
     .check-grid{
-        display: grid;
-        column-gap: 20%;
-        row-gap: 0;
-        grid-template-columns: 40% 40%;
         grid-template-areas: 
         'kurv kurv'
         'info kort'
