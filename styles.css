@@ -204,7 +204,12 @@ font-weight: bold;
 }
 
 @media (min-width: 800px) {
+    header {
+        position: sticky;
+        top: 0px;
+    }
     nav {
+        
         display: block;
         max-width: 71%;
         margin: auto;
