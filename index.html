@@ -1,71 +1,90 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Rainydays | HOME</title>
-        <meta name="description" content="Welcome to our website! Here you can buy great rain jackets">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-        <link href="styles.css" rel="stylesheet">
 
-    </head>
-    <body>
-        <header>
+<head>
+    <title>Rainydays | HOME</title>
+    <meta name="description" content="Welcome to our website! Here you can buy great rain jackets">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <!--<div class="logo-parent"> 
+                <img src="images/staffan-kjellvestad-y1qOT82fd8k-unsplash.jpg" alt="misty pine forrest" class="banner">
+                <a href="index.html" class="logo"><img src="images/logo-light.png" alt="this is the companys logo, links to front page"></a>
+            </div> -->
+
+        <input type="checkbox" id="hamburger" />
+        <label for="hamburger" class="menu"> MENU </label>
+        <a href="index.html" class="logo"><img src="images/logo-light-kopi.png"
+                alt="home, company logo, links to front page"></a>
+
+
+        <nav>
             
-            <input type="checkbox" id="hamburger"/>
-            <label for="hamburger" class="menu"> MENU </label>
-            <nav>
-                <a href="index.html" class="current"> home </a>
-                <a href="products.html">our jackets</a>
-                <a href="about.html"> about us </a>              
-                <a href="contact.html">contact</a>                
-            </nav>
-        </header>
-        <main>
-            <h1>Welcome</h1>
-            <div class="product-in-list index-grid layout1000">
-                <h2 class="index-head">Push Your Comfort Zone</h2>
-                <p class="index-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in... </p>
-                <img class="index-img" src="images/jente.jpg" alt="woman standing in a shallow river, looking up at the surrounding forrest">
-                <a href="about.html" class="cta middle">more about us</a>
+            <a href="products.html">our jackets</a>
+            <a href="about.html"> about us </a>
+            <a href="contact.html">contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome</h1>
+        <div class="product-in-list index-grid layout1000">
+            <h2 class="index-head">Push Your Comfort Zone</h2>
+            <p class="index-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in... </p>
+            <img class="index-img" src="images/jente.jpg"
+                alt="woman standing in a shallow river, looking up at the surrounding forrest">
+            <a href="about.html" class="cta middle">more about us</a>
+        </div>
+        <div class="product-in-list index-grid2 layout1000">
+            <h2 class="index-head">Our Jackets</h2>
+            <p class="p2 index-info">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+            <div class="jacketcontainer index-img">
+                <a href="products.html"><img src="images/RainyDays_Jacket1.png" alt="Jacket #1, grey rain jacket"
+                        class="product-img"></a>
+                <a href="products.html"><img src="images/RainyDays_Jacket3.png" alt="Jacket #3, red rain jacket"
+                        class="product-img"></a>
+                <a href="products.html"><img src="images/RainyDays_Jacket5.png"
+                        alt="Jacket #5, grey lined rained jacket" class="product-img"></a>
             </div>
-            <div class="product-in-list index-grid2 layout1000">
-                <h2 class="index-head">Our Jackets</h2>
-                    <p class="p2 index-info">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-                    <div class="jacketcontainer index-img">
-                        <a href="products.html"><img src="images/RainyDays_Jacket1.png" alt="Jacket #1, grey rain jacket" class="product-img"></a>
-                        <a href="products.html"><img src="images/RainyDays_Jacket3.png" alt="Jacket #3, red rain jacket" class="product-img"></a>
-                        <a href="products.html"><img src="images/RainyDays_Jacket5.png" alt="Jacket #5, grey lined rained jacket" class="product-img"></a> 
-                    </div> 
-                    <a href="products.html" class="cta middle">have a look</a>
-            </div>               
-        </main>
-        <footer>
-            <div class=footer-marg>
-                <h2>Contact us</h2>
-                <div class="contact-setup">
-                    <div>
-                        <p>Tlf: </p>
-                        <p>12 34 56 78</p>
-                    </div>
-                    <p>dette er en test234</p>
-                    <div>
-                        <p>e-mail: </p>
-                        <p>post@Rainydays.no</p>
-                    </div>
-                    <div>
-                        <p>Adress: </p>
-                        <p>Main Street 47, 1234 City</p>
-                    </div>                    
+            <a href="products.html" class="cta middle">have a look</a>
+        </div>
+    </main>
+    <footer>
+        <div class=footer-marg>
+            <h2>Contact us</h2>
+            <div class="contact-setup">
+                <div>
+                    <p>Tlf: </p>
+                    <p>12 34 56 78</p>
+                </div>
+                <p>dette er en test234</p>
+                <div>
+                    <p>e-mail: </p>
+                    <p>post@Rainydays.no</p>
+                </div>
+                <div>
+                    <p>Adress: </p>
+                    <p>Main Street 47, 1234 City</p>
                 </div>
             </div>
-            
-              
-            <div class="copy">
-                Copyright &copy;
-            </div>
-        </footer>
+        </div>
 
-    </body>
+
+        <div class="copy">
+            Copyright &copy;
+        </div>
+    </footer>
+
+</body>
+
 </html>

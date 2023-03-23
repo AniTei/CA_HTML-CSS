@@ -2,23 +2,7 @@ body {
     font-family: 'ubuntu', sans-serif;
     background-color: #cdcdcd;
 }
-.logo-parent {
-    position: relative;
-}
-.banner {
-    max-width: 100%;
-    position: relative;
-    background-position-x: right;
-    background-position-y: top;
-}
-.logo {
-    max-width: 42%;
-    position: absolute;
-    left: 50%;
-    margin-left: -21%;
-    top: 50%;
-    margin-top: -11%;
-}
+
 header {
     color: #cdcdcd;
     background-color: #283e3c;
@@ -46,16 +30,29 @@ nav {
     width: 100%;
     padding: 20px 0px;
 }
+.logo img{
+    max-width: 20%;
+}
+
+
+
+/*hamburger*/
 nav,
 #hamburger {
     display: none;
 }
+
+@media (max-width: 799px){
 #hamburger:checked ~ nav {
     display: block;
 }
 #hamburger:checked ~ .menu {
     text-decoration: underline;
 }
+}
+
+
+
 main {
     background-color: #cdcdcd;
     display: grid;
@@ -207,20 +204,30 @@ font-weight: bold;
     header {
         position: sticky;
         top: 0px;
+        display: flex;
+        /*justify-content: flex-end;*/
+        padding: 10px 15%;
+        margin: auto;
+    }
+    .logo img {
+        max-width: 150px;
     }
     nav {
+        display: flex;
+        justify-content: flex-end;
+        margin: auto 0;
         
-        display: block;
-        max-width: 71%;
-        margin: auto;
+
+        
     }
     header .menu {
         display: none;
     }
     nav a {
         display: inline-block;
-        width: 24%;
-        padding: 0px;
+        padding: 0 3%;
+
+       
     }
 }
 /*about*/
