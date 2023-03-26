@@ -233,6 +233,11 @@ fieldset div {
     clear: right;
     margin: 0.6em;
 }
+.form-error {
+    color:red;
+    font-size: 0.8em;
+    display:none;
+}
 
 
 @media (min-width: 800px) {

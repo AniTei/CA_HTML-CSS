@@ -42,7 +42,7 @@
         </header>
         <main>
             <h1>Checkout</h1>
-                <form action="success.html" class="check-grid layout1000"> 
+                <form action="success.html" class="check-grid layout1000" > 
                     <fieldset id="cart">
                         <legend>Your Cart</legend>
                         <img src="images/RainyDays_Jacket1.png" alt="image og your jacket, jacket #1" class="prod-in-cart">
@@ -52,47 +52,73 @@
                         <p class="cart-text cart-price">Total: 120 €</p>
 
                     </fieldset>
+                    <p>Hi there Navn! We can see you've been here before, thanks for coming back :) </p>
+                    
+                    
+                    
                     <fieldset id="information">
                         <legend>Your Information</legend>
                         <div>
-                            <label for="fornavn">First Name</label>
+                            <label for="fornavn">First Name
+                                <div class="form-error" id="firstname-error">Oopsi, use at least 3 characters</div>
+                            </label>
                             <input type="text" name="firstname" value="Navn" id="fornavn"/>
                         </div>
                         <div>
-                            <label for="etternavn">Last Name</label>
+                            <label for="etternavn">Last Name
+                                <div class="form-error" id="lastname-error">Oopsi, use at least 2 characters</div>
+                            </label>
                             <input type="text" name="lastname" value="Navnesen" id="etternavn"/>
                         </div>
                         <div>
-                            <label for="epost">e-mail</label>
+                            <label for="epost">e-mail
+                                <div class="form-error" id="email-error">Oopsi, use an e-mail format</div>
+                            </label>
                             <input type="email" name="e-mail" value="navn.navnesen@post.no" id="epost"/>
                         </div>
                         
                         <!---should I choose some other value than text for the type attribute here?-->
                         <div>
-                            <label for="gatenavn">Street Adress</label>
+                            <label for="gatenavn">Street Adress
+                                <div class="form-error" id="street-error">Oopsi, use at least 5 characters</div>
+                            </label>
                             <input type="text" name="streetadress" value="Storgata 1" id="gatenavn"/>
                         </div>
                         <div>
-                            <label for="postadresse">Postal Code</label>
+                            <label for="postadresse">Postal Code
+                                <div class="form-error" id="postal-error">Oopsi, use at least 4 characters</div>
+                            </label>
                             <input type="text" name="postalcode" value="1234" id="postadresse"/>
                         </div>
                         <div>
-                            <label for="by">City</label>
+                            <label for="by">City
+                                <div class="form-error" id="city-error">Oopsi, use at least 2 characters</div>
+                            </label>
                             <input type="text" name="City" value="Hovedstaden" id="by"/>
                         </div>
                     </fieldset>
+
+
+
+
                     <fieldset id="payment">
                         <legend>Payment</legend>
                         <div>
-                            <label for="kort">Card Number</label>
+                            <label for="kort">Card Number
+                                <div class="form-error">Oopsi, a card number needs 16 digits</div>
+                            </label>
                             <input type="text" name="cardnumber" value="**** **** **** ****" id="kort"/>
                         </div>
                         <div>
-                            <label for="utlop">Expiration Date</label>
+                            <label for="utlop">Expiration Date
+                                <div class="form-error" id="exp-error">Oopsi, the expiration date needs 4 digits</div>
+                            </label>
                             <input type="text" name="expiration" value="MM/YY" id="utlop"/>
                         </div>
                         <div>
-                            <label for="sikkerhet">CVC</label>
+                            <label for="sikkerhet">CVC
+                                <div class="form-error" id="cvc-error">Oopsi, the CVC needs 3 digits</div>
+                            </label>
                             <input type="text" name="CVC" value="***" id="sikkerhet"/>
                         </div>
                     </fieldset>
@@ -114,6 +140,7 @@
                 Copyright &copy;
             </div>
         </footer>
-
-    </body>
+<!--  <script src="checkout.js"></script>
+ --> 
+</body>
 </html>
