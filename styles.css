@@ -11,14 +11,17 @@ header {
 }
 
 header .menu {
-    padding: 0.5em 0.5em;
+    
     display: block;
     font-size: 1.5em;
     position: fixed;
-    right: 5px;
+    right: 10px;
     bottom: 5px;
     z-index: 1;
 
+}
+.menu span {
+    font-size: 2em;
 }
 
 header a {
