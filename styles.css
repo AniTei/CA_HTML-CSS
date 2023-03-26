@@ -237,12 +237,18 @@ img {
 
 .success p {
     text-align: center;
-    font-size: 0.8em;
+   
 
 }
 
 .tobecontinued {
     margin: auto;
+
+
+}
+
+.emoji {
+    font-size: 3em;
 }
 
 /*forms*/
@@ -286,9 +292,6 @@ fieldset div {
     margin: 0.6em;
 }
 
-#cart {
-    max-height: 40vh;
-}
 
 @media (min-width: 800px) {
     header {
