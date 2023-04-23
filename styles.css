@@ -127,6 +127,12 @@ footer .copy {
 p {
     text-align: left;
 }
+
+.featured-content {
+    border-style: solid;
+    border-color: red;
+}
+
 .product-img {
     background-color: #ffffff;
     max-width: 90%;

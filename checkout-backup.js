@@ -7,7 +7,7 @@ so it's at least possible to see the success page.
 The event in the prevent default is also deprecated, maybe that matters?
 change tag in form from input to button , didn't work, only skips the errors.
 
-Now it just shows the errors, but still goer to succsess
+Now it just shows the errors, but still goes to succsess
 
 tried passing event in as parameter, still goes to success*/
 
