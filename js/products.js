@@ -74,7 +74,6 @@ getJackets();
 
 const featuredContainer = document.querySelector(".featured-content");
 
-featuredContainer.innerHTML += "yo";
 
 const urlFeatured = "http://cross-course.local/wp-json/wc/store/products/?featured=true";
 
