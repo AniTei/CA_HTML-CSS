@@ -32,15 +32,13 @@ async function getJackets() {
 
                     <div class="list-head">
                         <h3 class="name-jacket"> ${data[i].name}</h3> 
-                        <p class="prod-price"> ${data[i].price_html} </p>
+                        
                     </div>
                 
                     <img src="${data[i].images[0].thumbnail}" alt="${data[i].images[0].alt}" class="product-img list-img">
-                    </a>
                     
-                    <div class="list-info">
-                        ${data[i].short_description}
-                    </div> 
+                    <p class="prod-price"> ${data[i].price_html} </p>
+                    </a>
 
                     <div class="list-btns">
                         <p class="cta">sold out :(</p>
@@ -74,7 +72,6 @@ getJackets();
 
 const featuredContainer = document.querySelector(".featured-content");
 
-
 const urlFeatured = "http://cross-course.local/wp-json/wc/store/products/?featured=true";
 
 /* //// devide up the first url, and use it for the featured part as well  */
@@ -92,24 +89,30 @@ async function getFeatured() {
 
         featuredContainer.innerHTML += `  
         
-        <a class="products-top" href="product-specific.html?id=${dataFeatured[i].id}"> 
+        <div class="featured-product">
+        
+            <a class="products-top" href="product-specific.html?id=${dataFeatured[i].id}"> 
 
                 <div class="list-head">
-                <h3>${dataFeatured[i].name}</h3>                   
-                <p class="prod-price"> ${dataFeatured[i].price_html} </p>
+                    <h3>${dataFeatured[i].name}</h3>                   
+                    <p class="prod-price"> ${dataFeatured[i].price_html} </p>
                 </div>
             
                 <img src="${dataFeatured[i].images[0].thumbnail}" alt="${dataFeatured[i].images[0].alt}" class="product-img list-img">
-                </a>
+            </a>
                 
-                <div class="list-info">
-                    ${dataFeatured[i].short_description}
-                </div> 
+            <div class="list-info">
+                ${dataFeatured[i].short_description}
+            </div> 
 
-                <div class="list-btns">
-                    <p class="cta">sold out :(</p>
-                    <a href="product-specific.html?id=${dataFeatured[i].id}" class="cta">read more</a>
-                </div> `;
+            <div class="list-btns">
+                <p class="cta">sold out :(</p>
+                <a href="product-specific.html?id=${dataFeatured[i].id}" class="cta">read more</a>
+            </div> 
+        
+        </div>
+                
+                `;
     }
 
 
