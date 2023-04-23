@@ -1,20 +1,22 @@
 
 
-/* const apiBase = "http://cross-course.local/"
-const woocommerceBase = "wp-json/wc/store/"
-const productsBase = "products"
- */
+const apiBase = "http://cross-course.local"
+const woocommerceBase = "/wp-json/wc/store"
+const productsBase = "/products"
 
+
+
+
+
+/* ///// */
 
 const jacketsContent = document.querySelector(".content-container");
 
-const url = "http://cross-course.local/wp-json/wc/store/products";
-
-//const url = "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita";
+const urlProducts = apiBase + woocommerceBase + productsBase;
 
 async function getJackets() {
     try {
-        const respond = await fetch(url);
+        const respond = await fetch(urlProducts);
         const data = await respond.json();
 
         jacketsContent.innerHTML += "";
