@@ -11,6 +11,8 @@ async function getJackets() {
         const respond = await fetch(urlProducts);
         const data = await respond.json();
 
+        console.log (data);
+
         /* I SHOULD MAYBE JUST RETURN DATA VARIABLE, AND CONTINUE IN NEW FUNCTION*/
 
         for (let i = 0; i < data.length; i++) {
