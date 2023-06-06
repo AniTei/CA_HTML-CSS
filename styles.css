@@ -387,6 +387,8 @@ fieldset div {
     .index-img {
         grid-area: bilde;
         margin: auto;
+        display: flex;
+        background: #fff;
     }
 
     .index-info {
@@ -524,3 +526,6 @@ fieldset div {
     }
 
 }
+
+
+/* restyle the front page jackets */
