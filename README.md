@@ -1,61 +1,70 @@
-# CA_HTML-CSS
-CA for the HTML and CSS course, Noroff
+Cross-course project, «Rainydays»
 
+The purpose of this project was answer the assignments given as part of several courses trough the first year of my Front-End studies at Noroff, fall 2022-spring 2023.
+The brief said to chose one of three prompts to first deign and later build a webpage. I chose the Rainydays option, a website for a outdoors clothing company. The site is for online shopping and for potential customers to get to know the company.  
 
-Your project title
-
-image
-
-A simple overview of the use/purpose of the project.
 
 Description
 
-Add a more detailed description of what your project entails and set out to do.
+This website was made over the course of two semesters, across several courses. As I have been introduced to new course and skills, so has the site evolved. The courses the have included this project are: Design 1, Web and Communications Technology, HTML and CSS, Interaction Design, Content Management System.
 
-You can add some bullet points if you'd like to:
+I first started it while working on the design course at the very start of my studies. 
 
-List item 1
-List item 2
-List item 3
+It was later built with HTML and CSS as the course assignment of the HTML and CSS course. At this point I also made some changes based on user feedback. 
+
+Later the site was further improved upon when some changes were made as part of the Interaction design course. ???
+
+The latest addition was keeping the products in a Wordpress API, using Local. Because the API source is made locally, the products does not show up on the live site.
+
+The site is made up of 7 pages:
+- A front page
+- A contact page
+- An about page
+- A page listing products, here jackets
+- A page specific to whatever jacket the user selects
+- A checkout page
+- And a checkout success page
+
+The website is built to be responsive, and look good and thereby be user-friendly on different devices.
+
+The design of the website is simple, mainly light grey and a dark green, inspired by a misty forest. Some of the content was provided with the assignment, like the images of the jackets, the name of the company, and its logo. Some of the images I got from Unsplash. The text is mainly lorem ipsum.
+
+
 Built With
 
-You can list a the tech stack that you've used over here
+The site was first all hard coded using only HTML and CSS. The products list page and the specific product page was later rebuilt using a Wordpress API and JavaScript. The Wordpress API was created using Local. 
+For the contents of the product posts, some of the content was provided with the assignment, and some of the images I got from Unsplash. The text is mainly lorem ipsum. 
+I worked in vsCode when building the project, and used GitHub to keep up with changes and versions. 
+The site is deployed to Netlify, but the contents kept in the Wordpress API can only be accessed with the export zip from Local.
 
-React.js
-Bootstrap
+
 Getting Started
+Installing and Running
 
-Installing
+The site can be viewed as a user, by using Netlily. However the contents kept in the Wordpress API can only be accessed with the export zip from Local.
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+	https://nimble-daffodil-4f7b58.netlify.app/index.html
 
-Clone the repo:
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-Install the dependencies:
-npm install
-Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+To see the files the site is made up of, go to the GitHub repo:
 
-To run the app, run the following commands:
+	https://github.com/AniTei/CA_HTML-CSS
 
-npm run start
+
 Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate CONTRIBUTING.md and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+Because of the nature of the project (answer to course assignments), there will be no contributions beyond this initial build. 
+
 
 Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+My LinkedIn page:
+https://www.linkedin.com/in/anine-teigland-a82b1a263/
 
-My Twitter page
+My GitHub page:
+https://github.com/AniTei
 
-My LinkedIn page
-
-License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
 
 Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+Thank you to users who tested my site, and for their feedback. Thank you to fellow students for testing and feedback. Thank you to teachers for feed back with the grading.
